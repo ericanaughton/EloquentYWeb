@@ -64,13 +64,16 @@ Exer.parameters1 = function() {
  };  // end Exer.parameters1
 
 var spaceCubeDetector = function(length, width, height) {
-  if (length = width = height) {
-    console.log("SPACE CUBE DETECTED!!");
+  if (length === width && length === height && length !== null) {
+    return "SPACE CUBE DETECTED!!";
   } else {
-    console.log("THIS IS NO SPACE CUBE!");
+    return "THIS IS NO SPACE CUBE!";
   }
+ } 
+return spaceCubeDetector;
+ };  // end Exer.parameters1
 
-}
+
 
 
 
